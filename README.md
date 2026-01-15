@@ -32,6 +32,17 @@
 
 ---
 
+# успешный логин
+login.login("standard_user", "secret_sauce")
+
+# заблокированный пользователь
+login.login("locked_out_user", "secret_sauce")
+
+# performance пользователь
+login.login("performance_glitch_user", "secret_sauce")
+
+---
+
 ## 🛠 Используемый стек
 
 - **Python 3.10**
