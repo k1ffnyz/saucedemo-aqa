@@ -54,3 +54,19 @@ saucedemo-aqa/
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
+```
+
+---
+
+##🐳 Запуск в Docker
+```bash
+docker build -t saucedemo-tests .
+docker run saucedemo-tests
+```
+
+---
+
+## 📌 Примечания
+- Используется Selenium Manager, поэтому не требуется ручная установка WebDriver
+- Проект поддерживает запуск в headless-режиме
+- Структура соответствует реальным AQA-проектам
